@@ -23,7 +23,7 @@ function App() {
               if (Number.isNaN(c)) {
                 return <span className='message'>まだ何も入力されていません。</span>;
               }
-              else if (c <= 1){
+              else if (c < 1){
                 return <span className='message'>0や負の数は素数ではありません。</span>;
               }
               else if (c === 1){
