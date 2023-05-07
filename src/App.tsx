@@ -109,6 +109,17 @@ function App() {
         </a>
         にあります。
       </p>
+      <p style={{ margin: 10 }}>
+        {" "}
+        ＊ ソースコードは
+        <a
+          href="https://github.com/random776/soinsuubunkai/blob/master/src/App.tsx"
+          className="btn4"
+        >
+          こちら
+        </a>
+        です。
+      </p>
     </>
   );
 }
