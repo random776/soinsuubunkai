@@ -32,8 +32,10 @@ function App() {
             );
           } else if (c === 1) {
             return <span className="message">1は素数ではありません。</span>;
+          } else if (Number.isInteger(c) === false) {
+            return <span className="message">整数を入力してください。</span>;
           } else if (c === 57) {
-            return <span>素数です。</span>;
+            return <span>素数です。</span>; //57は誰がなんと言おうと素数!
           } else if (c !== 57) {
             const numberArray = [];
             while (c % 2 === 0) {
