@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   background-color: #83eeff;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgb(0, 0, 0, 0.87);
   margin: 15px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -35,6 +35,11 @@ h1 {
 
 .message {
   color: red;
+  font-weight: 600;
+}
+
+.message2 {
+  color: blue;
   font-weight: 600;
 }
 
@@ -94,7 +99,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #83eeff;
   }
   a:hover {
     color: #747bff;
